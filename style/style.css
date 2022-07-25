@@ -1,0 +1,291 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none !important;
+  padding-left: 0 !important;
+}
+
+.hero {
+  max-width: 100%;
+  padding-bottom: 100px;
+  background: #eee;
+}
+.container {
+  padding: 150px 0;
+}
+.hero-container {
+  padding: 50px 0;
+}
+
+.row {
+  position: relative;
+}
+.hero__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.hero__video video {
+  object-fit: cover;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.hero__video source {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.hero__image {
+  padding-top: -20px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.hero__heading {
+  margin-bottom: 30px;
+  font-size: 50px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.hero__text {
+  line-height: 30px;
+}
+
+.form__header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.form__help {
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.form__location {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.loc {
+  position: relative;
+  left: 30px;
+}
+.location__img {
+  position: relative;
+
+  max-width: 30px;
+}
+.location__img img {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+}
+.form-control {
+  border-radius: 0;
+}
+
+.my__loc {
+  max-width: 50%;
+}
+
+.form-floating {
+  color: grey;
+}
+.btn-warning {
+  --bs-btn-focus-shadow-rgb: none;
+  --bs-btn-hover-border-color: none;
+}
+.form__btn,
+.exp__btn,
+.workout__btn,
+.benefit__btn {
+  border: none;
+  border-radius: 0;
+  color: black;
+  font-weight: bold;
+  background: yellow;
+  padding: 10px 50px 10px 50px;
+  justify-self: center;
+}
+
+.exp__btn:hover,
+.form__btn:hover,
+.workout__btn:hover,
+.benefit__btn:hover {
+  color: black;
+  background: rgb(235, 192, 0);
+}
+
+.experience {
+  background: #eee;
+  padding: 100px 0;
+}
+.experience::after {
+  display: block;
+  position: relative;
+  content: "";
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+  top: 10px;
+  background-color: grey;
+}
+
+.experience__image img {
+  width: 100%;
+}
+.experience__content {
+  color: black;
+  line-height: 30px;
+}
+.experience__content h2::after {
+  display: block;
+  content: " ";
+  position: relative;
+  top: 20px;
+  width: 70px;
+  height: 6px;
+  background-color: rgb(255, 174, 0);
+}
+.workout::after {
+  position: relative;
+  bottom: 40px;
+  margin: 0 auto;
+  display: block;
+  content: " ";
+  height: 1px;
+  width: 90%;
+  background-color: grey;
+}
+.workout__content {
+  line-height: 30px;
+}
+.benefit__content {
+  line-height: 30px;
+}
+.benefit::after {
+  position: relative;
+  bottom: 40px;
+  margin: 0 auto;
+  display: block;
+  content: " ";
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+@media (max-width: 992px) {
+  .benefit__content,
+  .experience__content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .experience__cont {
+    padding-right: 0 !important;
+  }
+  .benefit__button,
+  .experience__button {
+    text-align: center;
+  }
+  .benefit__header::after,
+  .experience__header::after {
+    position: relative !important;
+    top: 15px !important;
+    content: "" !important;
+    display: block !important;
+    background-color: rgb(255, 174, 0) !important;
+    height: 4px !important;
+    width: 50% !important;
+    margin: 0 auto !important;
+  }
+}
+.connect__container {
+  padding: 50px 0;
+}
+.social__icons {
+  font-size: 23px;
+}
+.connect__input {
+  border: 1px solid black;
+}
+.connect__btn {
+  border-radius: 0;
+  border: 1px solid black;
+  position: relative;
+  top: -38px;
+  left: 95%;
+}
+.pages {
+  background: #243746;
+}
+.first__row::after {
+  position: relative;
+  bottom: -16px;
+  margin: 0 auto;
+  display: block;
+  content: " ";
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+.pages__container {
+  padding: 100px 0 40px 0;
+}
+
+.pages__container a:hover {
+  color: #243746 !important;
+  transition: all 0.4s;
+}
+.pages__container a {
+  color: white;
+  transition: all 0.3s;
+}
+
+.color1 {
+  background: #eee;
+}
+
+.reveal {
+  position: relative;
+  opacity: 1;
+  transform: translateY(150px);
+  transition: 1s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.revealli {
+  position: relative;
+  opacity: 0;
+  transform: translateX(-150px);
+  transition: 0.5s all ease;
+}
+.revealli:nth-child(1) {
+  transition: 0.5s all ease;
+}
+.revealli:nth-child(2) {
+  transition: 0.7s all ease;
+}
+.revealli:nth-child(3) {
+  transition: 0.9s all ease;
+}
+.revealli:nth-child(4) {
+  transition: 1.1s all ease;
+}
+
+.revealli.active {
+  transform: translateX(0);
+  opacity: 1;
+}
