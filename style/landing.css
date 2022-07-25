@@ -184,31 +184,6 @@ li {
   background-color: black;
 }
 
-@media (max-width: 992px) {
-  .benefit__content,
-  .experience__content {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .experience__cont {
-    padding-right: 0 !important;
-  }
-  .benefit__button,
-  .experience__button {
-    text-align: center;
-  }
-  .benefit__header::after,
-  .experience__header::after {
-    position: relative !important;
-    top: 15px !important;
-    content: "" !important;
-    display: block !important;
-    background-color: rgb(255, 174, 0) !important;
-    height: 4px !important;
-    width: 50% !important;
-    margin: 0 auto !important;
-  }
-}
 .connect__container {
   padding: 50px 0;
 }
@@ -288,4 +263,30 @@ li {
 .revealli.active {
   transform: translateX(0);
   opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .benefit__content,
+  .experience__content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .experience__cont {
+    padding-right: 0 !important;
+  }
+  .benefit__button,
+  .experience__button {
+    text-align: center;
+  }
+  .benefit__header::after,
+  .experience__header::after {
+    position: relative !important;
+    top: 15px !important;
+    content: "" !important;
+    display: block !important;
+    background-color: rgb(255, 174, 0) !important;
+    height: 4px !important;
+    width: 50% !important;
+    margin: 0 auto !important;
+  }
 }

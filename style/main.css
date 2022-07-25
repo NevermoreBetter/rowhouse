@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+}
+
+a {
+  color: black !important;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none !important;
+  padding-left: 0 !important;
+}
+.navigation {
+  position: fixed;
+  width: 100%;
+}
+.connect__container {
+  padding: 50px 0;
+}
+.social__icons {
+  font-size: 23px;
+}
+.connect__input {
+  border: 1px solid black;
+}
+.connect__btn {
+  border-radius: 0;
+  border: 1px solid black;
+  position: relative;
+  top: -38px;
+  left: 95%;
+}
+.pages {
+  background: #243746;
+}
+.first__row::after {
+  position: relative;
+  bottom: -16px;
+  margin: 0 auto;
+  display: block;
+  content: " ";
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+.pages__container {
+  padding: 100px 0 40px 0;
+}
+
+.pages__container a:hover {
+  color: #243746 !important;
+  transition: all 0.4s;
+}
+.pages__container a {
+  color: white;
+  transition: all 0.3s;
+}
+
+/* BOOTSTRAP */
+
+.container {
+  padding: 150px 0;
+}
+.form-floating {
+  color: grey;
+}
+.btn-warning {
+  --bs-btn-focus-shadow-rgb: none;
+  --bs-btn-hover-border-color: none;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.color1 {
+  background: #eee;
+}
