@@ -18,6 +18,7 @@ li {
   width: 100%;
 }
 .navigation {
+  z-index: 3123123;
   padding: 30px 0;
 }
 
@@ -30,6 +31,13 @@ li {
 }
 
 .active::after {
+  display: block;
+  content: " ";
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(255, 174, 0);
 }
 
 .nav__item {
@@ -67,7 +75,36 @@ li {
   color: black;
   background: rgb(235, 192, 0);
 }
-.btn {
+
+.studio {
+  background: url("https://www.therowhouse.com/hubfs/RH%20website%20images/v1-01.png")
+    0 0 / 100% 100% no-repeat;
+  position: relative;
+  top: 104px;
+  height: 60vh;
+}
+
+.studio__container {
+}
+.studio__row {
+}
+.studio__picture {
+}
+
+.studio__picture img {
+  object-fit: cover;
+}
+
+.studio__content {
+}
+
+.studio__header {
+}
+
+.studio__button {
+}
+
+.studio__btn {
 }
 
 .connect__container {
