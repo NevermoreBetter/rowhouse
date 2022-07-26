@@ -91,9 +91,6 @@ li {
   object-fit: cover;
 }
 
-.first {
-}
-
 .first__container {
   padding: 250px 0 150px 0 !important;
 }
@@ -116,6 +113,10 @@ li {
 
 .first__text {
   font-size: 20px;
+}
+
+.carousel__item {
+  width: 50%;
 }
 
 .connect__container {
