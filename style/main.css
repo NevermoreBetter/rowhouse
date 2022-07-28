@@ -166,9 +166,11 @@ svg {
   font-size: 20px;
 }
 
-.carousel-item img {
-  width: 50% !important;
+.logo__image {
+  flex: 0 0 150px;
+  margin: 10px;
 }
+
 .connect__container {
   padding: 50px 0;
 }
