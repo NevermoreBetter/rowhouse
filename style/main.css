@@ -103,6 +103,7 @@ li {
 }
 
 .first__container {
+  z-index: 5534;
   padding: 250px 0 150px 0 !important;
 }
 
@@ -125,6 +126,12 @@ li {
 
 .first__text {
   font-size: 20px;
+}
+
+.first svg {
+  position: absolute;
+  top: 10%;
+  z-index: 1;
 }
 .near {
   background: url(https://www.therowhouse.com/hubfs/rowhouse.com/jpg/Home/home_page_findrowhouse_desktop.jpg)
@@ -169,6 +176,19 @@ svg {
 .logo__image {
   flex: 0 0 150px;
   margin: 10px;
+}
+
+.logo-list {
+  position: relative !important;
+}
+
+.logo__container {
+  z-index: 2103;
+}
+.logo-list svg {
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
 
 .connect__container {
