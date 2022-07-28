@@ -111,7 +111,8 @@ li {
   flex-direction: column;
   z-index: 1;
 }
-.first__header::after {
+.first__header::after,
+.workout__header::after {
   display: block;
   content: " ";
   position: relative;
@@ -130,14 +131,15 @@ li {
     0 0/100% 100% no-repeat !important;
 }
 
-.hint {
+.near__container {
+  position: relative;
+  z-index: 321321;
 }
+
 .hint p {
   font-size: 12px;
 }
 
-.near__content {
-}
 .near__header {
   letter-spacing: -1px;
 }
@@ -147,15 +149,25 @@ li {
   font-size: 20px;
 }
 
-.book__button {
+svg {
+  position: absolute;
+  top: 2100px;
+  z-index: 1;
 }
 
-.book__btn {
-}
-.location__button {
+.workout__content {
+  position: relative;
+  z-index: 2131;
 }
 
-.location__btn {
+.workout__text {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.carousel-item img {
+  width: 50% !important;
 }
 .connect__container {
   padding: 50px 0;
