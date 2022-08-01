@@ -9,6 +9,7 @@ class Head extends HTMLElement {
         position: fixed;
         width: 100%;
       }
+
       .navigation {
         z-index: 3123123;
         padding: 30px 0;
@@ -28,6 +29,8 @@ class Head extends HTMLElement {
         width: 100%;
         height: 3px;
         background-color: rgb(255, 174, 0);
+        transform: scale(1);
+        margin: 0 auto;
       }
 
       .nav__item {
@@ -78,7 +81,7 @@ class Head extends HTMLElement {
               itemprop="logo"
           /></a>
         </div>
-        <a class="nav-link active text-muted nav__item" href="benefits.html">Benefits</a>
+        <a class="nav-link active  text-muted nav__item" href="benefits.html">Benefits</a>
         <a class="nav-link text-muted nav__item" href="#">First Timers</a>
         <a class="nav-link text-muted nav__item" href="#">The Workout</a>
         <a class="nav-link text-muted nav__item" href="#">Row For A Cause</a>
