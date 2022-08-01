@@ -42,10 +42,24 @@ li {
 }
 
 .advantages__content {
-  margin-right: 30px;
-  width: 90%;
+  flex: 0 1 40%;
 }
 
 .advantages__picture {
-  object-fit: fill;
+  flex: 0 0 50%;
+  right: 0;
+  top: 0;
+}
+.advantages__picture img {
+  object-fit: cover;
+}
+
+.advantages h3::after {
+  display: block;
+  content: " ";
+  position: relative;
+  top: 20px;
+  width: 13%;
+  height: 7px;
+  background-color: rgb(255, 174, 0);
 }
